@@ -1,0 +1,211 @@
+
+/****** REGULAR SELECTORS ****/
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/********* HEADINGS *********/
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/***** container ****/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/******Sections ******/
+.color-section{
+  background-color: #00a8cc;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/********** TITLE SECTION **********/
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+
+/* iPhone Mockup Picture */
+
+.iphone-mockup {
+  width: 100%;
+  float: left;
+  -ms-transform: rotate(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg); /* Safari */
+  -o-transform: rotate(-5deg); /* Opera */
+  -moz-transform: rotate(-5deg); /* Mozilla Firefox */
+  transform: rotate(-5deg);
+  position: absolute;
+  right: 0%;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/******** Features Section ********/
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.feature-icons {
+  color: #f76a8c;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #f1c40f;
+}
+
+
+/****** Testimonial Section ******/
+
+#testimonials {
+  background-color: #00a8cc;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.time-image {
+  width: 25%;
+  border-radius: 10%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/******* Press Section *******/
+
+#press {
+  background-color: #00a8cc;
+  padding-bottom: 0%;
+}
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.mashalogo {
+  width: 25%;
+}
+
+
+/******* Pricing Section *******/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/******* Call to Action Section *******/
+
+.download-button-footer {
+  margin: 5% 2% 5% 2%;
+}
+
+/******* Footer Section *******/
+
+.social-media-icons {
+margin: 20px 10px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+
+
+/* MEDIA SECTION MOBILE-FRIENDLY */
+
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+  .iphone-mockup {
+    position: static;
+    width: 50%;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    -o-transform: rotate(0deg); /* Opera */
+    -moz-transform: rotate(0deg); /* Mozilla Firefox */
+    transform: rotate(0deg);
+    margin-left: 23%;
+  }
+}
